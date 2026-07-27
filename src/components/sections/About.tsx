@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { Download, ExternalLink, GraduationCap, Briefcase, Layout, Server, FolderDown } from 'lucide-react';
-import { FaRegStar } from "react-icons/fa";
 import { personalInfo} from '../../config';
 
 export default function About() {
