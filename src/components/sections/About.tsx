@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Download, ExternalLink, GraduationCap, Briefcase, Layout, Server, FolderDown } from 'lucide-react';
+import { FaRegStar } from "react-icons/fa";
 import { personalInfo} from '../../config';
 
 export default function About() {
@@ -67,8 +68,8 @@ export default function About() {
                     <Layout size={22} />
                   </div>
                   <div>
-                    <p className="text-xs font-bold text-white/70 uppercase tracking-wide">Frontend</p>
-                    <p className="text-base font-black text-white">React, Tailwind</p>
+                    <p className="text-xs font-bold text-white/70 uppercase tracking-wide">Notice Period</p>
+                    <p className="text-base font-black text-white">15 Days</p>
                   </div>
                 </div>
                 
@@ -77,8 +78,8 @@ export default function About() {
                     <Server size={22} />
                   </div>
                   <div>
-                    <p className="text-xs font-bold text-white/70 uppercase tracking-wide">Backend</p>
-                    <p className="text-base font-black text-white">Node.js, SQL</p>
+                    <p className="text-xs font-bold text-white/70 uppercase tracking-wide">Open To</p>
+                    <p className="text-base font-black text-white">Full-time: SDE-1 / Full Stack Roles </p>
                   </div>
                 </div>
               </div>
