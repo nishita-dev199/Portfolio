@@ -65,57 +65,6 @@ export default function Hero() {
             </a>
           </motion.div>
         </div>
-
-        {/* Right Side Content - Info Containers */}
-        <div className="w-full lg:w-[45%] flex flex-col justify-center items-center mt-12 lg:mt-0 relative z-10">
-          <div className="grid grid-cols-2 gap-4 md:gap-6 relative">
-            
-            {/* Education Container */}
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.3, duration: 0.5 }}
-              className="w-36 h-36 md:w-44 md:h-44 rounded-full border border-purple-light/30 bg-black/40 backdrop-blur-md flex flex-col items-center justify-center text-center p-3 md:p-4 shadow-[0_0_15px_rgba(168,85,247,0.2)] hover:shadow-[0_0_25px_rgba(168,85,247,0.5)] hover:-translate-y-2 transition-all duration-300"
-            >
-              <span className="text-purple-light text-xs md:text-sm font-semibold mb-1 uppercase tracking-wider">Education</span>
-              <span className="text-white font-bold text-xs md:text-sm leading-tight">B.Tech in Computer Science</span>
-            </motion.div>
-
-            {/* Experience Container */}
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.4, duration: 0.5 }}
-              className="w-36 h-36 md:w-44 md:h-44 rounded-full border border-purple-light/30 bg-black/40 backdrop-blur-md flex flex-col items-center justify-center text-center p-3 md:p-4 shadow-[0_0_15px_rgba(168,85,247,0.2)] hover:shadow-[0_0_25px_rgba(168,85,247,0.5)] hover:-translate-y-2 transition-all duration-300 mt-0 lg:mt-12"
-            >
-              <span className="text-purple-light text-xs md:text-sm font-semibold mb-1 uppercase tracking-wider">Experience</span>
-              <span className="text-white font-bold text-base md:text-xl">2 Years</span>
-            </motion.div>
-
-            {/* Notice Period Container */}
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.5, duration: 0.5 }}
-              className="w-36 h-36 md:w-44 md:h-44 rounded-full border border-purple-light/30 bg-black/40 backdrop-blur-md flex flex-col items-center justify-center text-center p-3 md:p-4 shadow-[0_0_15px_rgba(168,85,247,0.2)] hover:shadow-[0_0_25px_rgba(168,85,247,0.5)] hover:-translate-y-2 transition-all duration-300 -mt-0 lg:-mt-12"
-            >
-              <span className="text-purple-light text-xs md:text-sm font-semibold mb-1 uppercase tracking-wider">Notice Period</span>
-              <span className="text-white font-bold text-base md:text-xl">15 Days</span>
-            </motion.div>
-
-            {/* Open To Container */}
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.6, duration: 0.5 }}
-              className="w-36 h-36 md:w-44 md:h-44 rounded-full border border-purple-light/30 bg-black/40 backdrop-blur-md flex flex-col items-center justify-center text-center p-3 md:p-4 shadow-[0_0_15px_rgba(168,85,247,0.2)] hover:shadow-[0_0_25px_rgba(168,85,247,0.5)] hover:-translate-y-2 transition-all duration-300"
-            >
-              <span className="text-purple-light text-xs md:text-sm font-semibold mb-1 uppercase tracking-wider">Open To</span>
-              <span className="text-white font-bold text-xs md:text-sm leading-tight">Full-time:<br/>SDE-1 /<br/>Full Stack</span>
-            </motion.div>
-
-          </div>
-        </div>
       </div>
     </section>
   );
